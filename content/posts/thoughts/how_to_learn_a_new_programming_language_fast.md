@@ -3,7 +3,7 @@ title: "How to learn a new programming language fast"
 subtitle: ""
 date: 2022-05-27T13:37:43+08:00
 lastmod: 2022-05-27T13:37:43+08:00
-draft: true
+draft: false
 author: "Borer"
 authorLink: "https://github.com/Borer-Borer"
 description:
