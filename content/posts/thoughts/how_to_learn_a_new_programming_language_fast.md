@@ -154,3 +154,6 @@ You don’t work long hours anymore. You have time to go out with your friends. 
 Now you know the process of learning any new programming language. You know that you can’t quit in the middle. Every two hours spent programming are two hours you spent away from your loved ones. So make those two hours count. Allow those two hours to multiply each day until you’ve learned and internalized the concepts.
 
 Once you are proficient after working on enough projects, know that this is not the end. It’s a new beginning. Start from zero to learn and internalize new programming languages and new programming concepts again. Once you increase new breadths and depths of your knowledge throughout your programming stack, learning will flow naturally and become a part of your life.
+
+
+> referent from [medium](https://betterprogramming.pub/6-stages-of-learning-a-new-programming-language-64b7e5335fb5)
