@@ -163,7 +163,7 @@ homePicture = "/blackarch.png"
           avatarURL = "/borer.png"
           # title shown in home page (HTML format is supported)
           # title= "Do one thing , and do it well !"
-          title= "Truth , Regularity , Why , 见相非相"
+          title= "Truth , Principle , Why , 见相非相"
           # subtitle shown in home page
           # subtitle= "Keep Simple, Keep Stupid !"
           subtitle= "The First Principle"
