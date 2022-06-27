@@ -1,0 +1,79 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>All Posts - Borer&#39;s Blog</title>
+        <link>https://januborer.github.io/posts/</link>
+        <description>All Posts | Borer&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>janu.yieg.borer@gmail.com (borer)</managingEditor>
+            <webMaster>janu.yieg.borer@gmail.com (borer)</webMaster><copyright>borer</copyright><lastBuildDate>Mon, 06 Jun 2022 09:23:45 &#43;0800</lastBuildDate><atom:link href="https://januborer.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>第一人性</title>
+    <link>https://januborer.github.io/human_first_principle/</link>
+    <pubDate>Mon, 06 Jun 2022 09:23:45 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://januborer.github.io/human_first_principle/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Test</title>
+    <link>https://januborer.github.io/test/</link>
+    <pubDate>Fri, 27 May 2022 16:16:35 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://januborer.github.io/test/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>How to learn a new programming language fast</title>
+    <link>https://januborer.github.io/how_to_learn_a_new_programming_language_fast/</link>
+    <pubDate>Fri, 27 May 2022 13:37:43 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://januborer.github.io/how_to_learn_a_new_programming_language_fast/</guid>
+    <description><![CDATA[How to learn a new programming language fast Summary The truth is that becoming a master learner is a practice. Trick in Learning Practice and Pressure. How to Internalize the most important concepts. Gifted person is always keeping sensitive to anything presented. Checking what the type learner you are:visual learner,auditory learner,reading/writing learner,or kinesthetic learner. Visual learner
+If you are a visual learner, you love visualizing ideas and concepts. You can create mind maps of the concepts.]]></description>
+</item><item>
+    <title>刻意练习</title>
+    <link>https://januborer.github.io/keyilianxi/</link>
+    <pubDate>Wed, 27 Apr 2022 18:36:56 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://januborer.github.io/keyilianxi/</guid>
+    <description><![CDATA[刻意练习 思想建设：你完全刻意控制自己的潜力，大脑的适应能力和结构会随着你的刻意练习而改变而不管你是什么年龄段的人。所以你肯定可以成功，不管你]]></description>
+</item><item>
+    <title>浅义理解React</title>
+    <link>https://januborer.github.io/understand-react/</link>
+    <pubDate>Wed, 16 Feb 2022 11:01:44 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://januborer.github.io/understand-react/</guid>
+    <description><![CDATA[State &amp; 生命周期 &amp; 执行顺序 执行顺序 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 class Test extends React.Component { constructor(props) { super(props); this.state = { date: new Date() }; } componentDidMount() { this.timerId = setInterval(() =&gt; this.tick(), 1000); } componentWillUnmount() { clearInterval(this.timerId); } tick()]]></description>
+</item><item>
+    <title>面向对象与类和原型链</title>
+    <link>https://januborer.github.io/class_and_prototype/</link>
+    <pubDate>Tue, 15 Feb 2022 14:26:39 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://januborer.github.io/class_and_prototype/</guid>
+    <description><![CDATA[面向对象 对象是指：数据和在这些数据上进行的操作的集合。 面向对象的编程范式在这里不多赘述 原型链 ES6的class 参考文档 ES6类 原型链]]></description>
+</item><item>
+    <title>Now Important</title>
+    <link>https://januborer.github.io/now_important/</link>
+    <pubDate>Tue, 15 Feb 2022 14:24:13 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://januborer.github.io/now_important/</guid>
+    <description><![CDATA[既然选择学习或了解，那么需要明确这次的学习了解的主要目的是学习到了解到达到自己需要了解到的程度，带着这样的目的去学习去了解，不是为了把多少页]]></description>
+</item><item>
+    <title>马斯克访谈实录</title>
+    <link>https://januborer.github.io/masikefangtanjilu/</link>
+    <pubDate>Sat, 15 Jan 2022 15:21:46 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://januborer.github.io/masikefangtanjilu/</guid>
+    <description><![CDATA[想要深入了解马斯克的所思所想？想要了解特斯拉和SpaceX面临的技术挑战？一场两个半小时视频对话，足以满足你的大部分好奇！ 就在9天之前，Yo]]></description>
+</item><item>
+    <title>如何编程的思考</title>
+    <link>https://januborer.github.io/ruhebiancheng/</link>
+    <pubDate>Fri, 14 Jan 2022 17:33:01 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://januborer.github.io/ruhebiancheng/</guid>
+    <description><![CDATA[序言 编程语言很多，其设计理念也不一樣，那么如何才能使用该语言编写优秀程序且代码优美呢？其本质语言还是思想的表达，优美源于对美学的认识，对哲学]]></description>
+</item><item>
+    <title>天局</title>
+    <link>https://januborer.github.io/tianju/</link>
+    <pubDate>Sat, 18 Dec 2021 14:31:46 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://januborer.github.io/tianju/</guid>
+    <description><![CDATA[]]></description>
+</item></channel>
+</rss>
