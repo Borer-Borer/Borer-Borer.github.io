@@ -1,4 +1,4 @@
-baseURL = "https://janu-yieg.github.io"
+baseURL = "https://januborer.github.io"
 # [en, zh-cn, fr, pl, ...] determines default content language
 # [en, zh-cn, fr, pl, ...] 设置默认的语言
 defaultContentLanguage = "en"
@@ -98,7 +98,7 @@ homePicture = "/blackarch.png"
         pre = "<i class='fab fa-github fa-fw'></i>"
         post = ""
         name = ""
-        url = "https://github.com/JanU-YieG"
+        url = "https://github.com/januborer"
         title = "GitHub"
         weight = 8
       [[languages.en.menu.main]]
@@ -881,8 +881,8 @@ homePicture = "/blackarch.png"
       # Gitalk 评论系统设置 (https://github.com/gitalk/gitalk)
       [params.page.comment.gitalk]
         enable = true
-        owner = "JanU-YieG"
-        repo = "JanU-YieG.github.io"
+        owner = "januborer"
+        repo = "jannuborer.github.io"
         clientId = "67a1cd85e91de1cc2ab9"
         clientSecret = "232b4d1a3d1e7568e843b6d12f9841ae6cbb227f"
         proxy = "https://shielded-brushlands-08810.herokuapp.com/https://github.com/login/oauth/access_token"
@@ -1098,7 +1098,7 @@ homePicture = "/blackarch.png"
 [author]
   name = "borer"
   email = "janu.yieg.borer@gmail.com"
-  link = "https://github.com/JanU-YieG"
+  link = "https://github.com/januborer"
 
 # Sitemap config
 # 网站地图配置
