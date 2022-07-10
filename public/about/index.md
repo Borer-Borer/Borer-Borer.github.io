@@ -9,6 +9,9 @@
 
 #### Technology stack
 [![Rust](https://img.shields.io/badge/CS-Rust-red)](https://www.rust-lang.org)
+[![Data-Structure](https://img.shields.io/badge/CS-Data--Structure-red)](https://en.wikipedia.org/wiki/Data_structure)
+[![Algorithm](https://img.shields.io/badge/CS-Algorithm-red)](https://en.wikipedia.org/wiki/Algorithm)
+
 
 
 [![react](https://img.shields.io/badge/frontend-react-%2337adff)](https://reactjs.org/)
