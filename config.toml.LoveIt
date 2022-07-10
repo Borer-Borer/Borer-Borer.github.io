@@ -181,7 +181,7 @@ homePicture = "/blackarch.png"
           paginate = 4
       # Social config in home page
       [languages.en.params.social]
-        GitHub = "JanU-YieG"
+        GitHub = "januborer"
         Linkedin = ""
         # Twitter = "borer85874724"
         Instagram = ""
