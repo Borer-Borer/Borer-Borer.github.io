@@ -35,6 +35,6 @@
 [![arch](https://img.shields.io/badge/tool-arch-orange)](https://archlinux.org)
 [![blackarch](https://img.shields.io/badge/tool-blackarch-orange)](https://blackarch.org)
 
-#### Contribution
-  [Chinese simple](https://januborer.github.io/resume/)
+<!-- #### Contribution -->
+  <!-- [Chinese simple](https://januborer.github.io/resume/) -->
 
