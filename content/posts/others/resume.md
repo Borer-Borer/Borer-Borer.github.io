@@ -3,9 +3,9 @@ title: "个人简历"
 subtitle: "中文工作简历"
 date: 2022-07-10T17:04:04+08:00
 lastmod: 2022-07-10T17:04:04+08:00
-draft: false
+draft: true
 author: "Borer"
-authorLink: "https://github.com/Borer-Borer"
+authorLink: "https://github.com/januborer"
 description:
 hiddenFromHomePage: false
 hiddenFromSearch: false
@@ -206,6 +206,3 @@ summary: ""
 [![blackarch](https://img.shields.io/badge/tool-blackarch-orange)](https://blackarch.org)
 [![git](https://img.shields.io/badge/tool-git-orange)](https://git-scm.com/)
 [![shell](https://img.shields.io/badge/tool-shell-orange)](https://www.gnu.org/software/bash/)
-
-
-  算法，数据结构

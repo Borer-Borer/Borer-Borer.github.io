@@ -180,6 +180,3 @@
 [![git](https://img.shields.io/badge/tool-git-orange)](https://git-scm.com/)
 [![shell](https://img.shields.io/badge/tool-shell-orange)](https://www.gnu.org/software/bash/)
 
-
-  算法，数据结构
-
