@@ -30,7 +30,7 @@ summary: ""
 
 # 个人简历（开发工程师）
 
-<img src="/static/author.jpg" style="zoom:50%;" />
+<!-- <img src="/static/author.jpg" style="zoom:50%;" /> -->
 
 ### 个人基本信息
 
