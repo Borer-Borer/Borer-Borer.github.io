@@ -4,16 +4,9 @@
         <link>https://januborer.github.io/</link>
         <description>个人分享记录</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>janu.yieg.borer@gmail.com (borer)</managingEditor>
-            <webMaster>janu.yieg.borer@gmail.com (borer)</webMaster><copyright>borer</copyright><lastBuildDate>Sun, 10 Jul 2022 17:04:04 &#43;0800</lastBuildDate>
+            <webMaster>janu.yieg.borer@gmail.com (borer)</webMaster><copyright>borer</copyright><lastBuildDate>Mon, 06 Jun 2022 09:23:45 &#43;0800</lastBuildDate>
             <atom:link href="https://januborer.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>个人简历</title>
-    <link>https://januborer.github.io/resume/</link>
-    <pubDate>Sun, 10 Jul 2022 17:04:04 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://januborer.github.io/resume/</guid>
-    <description><![CDATA[个人简历（开发工程师） 个人基本信息 姓名： 杨杰 性别：男 出生年月：1994.02 工作年限：4年 学历：大学本科 毕业院校：黑龙江大学 专业：计算机科学]]></description>
-</item><item>
     <title>第一人性</title>
     <link>https://januborer.github.io/human_first_principle/</link>
     <pubDate>Mon, 06 Jun 2022 09:23:45 &#43;0800</pubDate>
@@ -77,5 +70,12 @@ If you are a visual learner, you love visualizing ideas and concepts. You can cr
     <author>Author</author>
     <guid>https://januborer.github.io/ruhebiancheng/</guid>
     <description><![CDATA[序言 编程语言很多，其设计理念也不一樣，那么如何才能使用该语言编写优秀程序且代码优美呢？其本质语言还是思想的表达，优美源于对美学的认识，对哲学]]></description>
+</item><item>
+    <title>天局</title>
+    <link>https://januborer.github.io/tianju/</link>
+    <pubDate>Sat, 18 Dec 2021 14:31:46 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://januborer.github.io/tianju/</guid>
+    <description><![CDATA[]]></description>
 </item></channel>
 </rss>

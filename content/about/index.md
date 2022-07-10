@@ -44,4 +44,4 @@ showActions:    false
 [![blackarch](https://img.shields.io/badge/tool-blackarch-orange)](https://blackarch.org)
 
 #### Contribution
-[Chinese simple]()
+  [Chinese simple](https://januborer.github.io/resume/)
