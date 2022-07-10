@@ -34,7 +34,8 @@
 [![neovim](https://img.shields.io/badge/tool-neovim-orange)](https://neovim.io)
 [![arch](https://img.shields.io/badge/tool-arch-orange)](https://archlinux.org)
 [![blackarch](https://img.shields.io/badge/tool-blackarch-orange)](https://blackarch.org)
-
+[![git](https://img.shields.io/badge/tool-git-orange)](https://git-scm.com/)
+[![shell](https://img.shields.io/badge/tool-shell-orange)](https://www.gnu.org/software/bash/)
 <!-- #### Contribution -->
   <!-- [Chinese simple](https://januborer.github.io/resume/) -->
 
