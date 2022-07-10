@@ -882,10 +882,16 @@ homePicture = "/blackarch.png"
       [params.page.comment.gitalk]
         enable = true
         owner = "januborer"
-        repo = "jannuborer.github.io"
+        repo = "januborer.github.io"
+        admin= "januborer" # Required. Github repository owner and collaborators. (Users who having write access to this repository)
+        labels= "gitalk" # Github issue labels. If you used to use Gitment, you can change it
         clientId = "e7adb112ad4d070bb083"
         clientSecret = "01d433de61ff96af53e9b89b1565dc800373cab3"
         proxy = "https://shielded-brushlands-08810.herokuapp.com/https://github.com/login/oauth/access_token"
+        perPage= 15 # Pagination size, with maximum 100.
+        pagerDirection= "last" # Comment sorting direction, available values are 'last' and 'first'.
+        createIssueManually= false # If it is 'false', it is auto to make a Github issue when the administrators login.
+        distractionFreeMode= true# Enable hot key (cmd|ctrl + enter) submit comment.
       # Valine comment config (https://github.com/xCss/Valine)
       # Valine 评论系统设置 (https://github.com/xCss/Valine)
       [params.page.comment.valine]
