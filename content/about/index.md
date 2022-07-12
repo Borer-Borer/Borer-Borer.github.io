@@ -47,5 +47,8 @@ showActions:    false
 [![blackarch](https://img.shields.io/badge/tool-blackarch-orange)](https://blackarch.org)
 [![git](https://img.shields.io/badge/tool-git-orange)](https://git-scm.com/)
 [![shell](https://img.shields.io/badge/tool-shell-orange)](https://www.gnu.org/software/bash/)
+
+#### Open source projects
+[A simple web-server](https://github.com/januborer/web-server-rs)
 <!-- #### Contribution -->
   <!-- [Chinese simple](https://januborer.github.io/resume/) -->
