@@ -78,12 +78,12 @@ homePicture = "/blackarch.png"
         # title = "All documentation"
         # weight = 4
       [[languages.en.menu.main]]
-        identifier = "links"
+        identifier = "Books"
         pre = "<i class='fas fa-paperclip'></i>"
         post = ""
-        name = "Links"
-        url = "/links/"
-        title = "Links"
+        name = "Books"
+        url = "/Books/"
+        title = "Books"
         weight = 6
       [[languages.en.menu.main]]
         identifier = "About"
@@ -113,7 +113,7 @@ homePicture = "/blackarch.png"
       # site description
       description = "个人分享记录"
       # site keywords
-      keywords = ["杨杰","philosophy", "borer", "blog", "Borer", "it", "CS"]
+      keywords = ["philosophy", "borer", "blog", "Borer", "it", "CS"]
       # App icon config
       [languages.en.params.app]
         # optional site title override for the app when added to an iOS home screen or Android launcher
