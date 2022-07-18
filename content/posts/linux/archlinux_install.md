@@ -130,7 +130,7 @@ ln -sf /usr/share/zoneinfo/<your Region>/<your City> /etc/localtime
 hwclock --systohc --utc
 ```
 
-##### locale setting
+##### fonts && input method
 
 ```
 //uncomment:en_US UTF-8,zh_CN UTF-8
@@ -139,6 +139,13 @@ locale-gen
 echo "LANG=en_US.UTF-8" > /etc/locale.conf
 export LANG=en_US.UTF-8
 echo myarch > /etc/hostname
+
+//english font
+pacman -S ttf-dejavu
+
+//chinese fonts
+pacman -S wqy-microhei
+
 ```
 
 ##### network setting
@@ -167,27 +174,25 @@ grub-install --target=x86_64-efi --bootloader-id=<your boot name> --recheck
 grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
-##### install network control tool : iwd
-
-```
-pacman -S iwd
-```
-
 ##### config your network
 
 ```
+<!-- Config -->
 //[General]
 //EnableNetworkConfiguration=true
 vim /etc/iwd/main.conf
+systemctl start systemd-resolved.service
+systemctl enable systemd-resolved.service
+<!-- Method one:dhcpcd -->
 //or install dhcpcd
 pacman -S dhcpcd
 systemctl start dhcpcd
 systemctl enable dhcpcd
-//start and enable some service about your networks
+
+<!-- Method two -->
+pacman -S iwd
 systemctl start iwd.service
 systemctl enable iwd.service
-systemctl start systemd-resolved.service
-systemctl enable systemd-resolved.service
 ```
 
 **note:** then you can connect your network like above
@@ -207,34 +212,58 @@ pacman -S sudo
 vim /etc/sudoers
 ```
 
-##### install fonts
-
-```
-//english font
-pacman -S ttf-dejavu
-//chinese fonts
-pacman -S wqy-microhei
-```
 
 ##### some other softwares
 
 ```
-//Xarchiver is a front-end to various command line archiving tools for Linux and BSD operating systems, designed to be independent of the desktop environment.  It is the default archiving application of Xfce and LXDE.It handles encrypted *.7z, *.arj, *.lrz, *.rar and *.zip archives
-   pacman -S xarchiver
+<!-- you can install .deb -->
+pacman -S debtap
 
-   //mount filetype ntfs
-   pacman -S ntfs-3g
-   //voice
-   //sudo pacman -S alsa-utils alsa-plugins alsa-lib
-   //alsamixer
-   pacman -S pulseaudio
+<!-- dpkg -i *****.dev -->
+pacman -S dpkg
 
-   //you can install .deb
-   //dpkg -i *****.dev
-   pacman -S dpkg
+```
 
-   //some base-devel
-   pacman -S base-devel
+#### Important tools
+```
+<!-- base-devel -->
+pacman -S base-devel
+
+<!-- Audio -->
+//driver
+pacman -S alsa-utils alsa
+//service
+pacman -S pulseaudio
+//CLI
+pacman -S pulsemixer
+//if have no sound ,then `pacman -S sof-firmware alsa-ucm-conf`
+//control audio
+pactl set-sink-volume @DEFAULT_SINK@ -5%
+//or control audio
+pulsemixer
+
+<!-- Battery -->
+pacman -S xf86-video-nouveau optimus-manager optimus-manager-qt
+
+<!-- Bluetooth -->
+pacman -S bluz bluz-utils
+
+<!-- wireless network -->
+pacman -S iwd
+
+<!-- brightnessctl -->
+pacman -S brightnessctl
+brightnessctl set 5%-
+brightnessctl set +5%
+
+
+
+<!-- mount filetype ntfs -->
+pacman -S ntfs-3g
+
+<!-- Xarchiver is a front-end to various command line archiving tools for Linux and BSD operating systems, designed to be independent of the desktop environment.  It is the default archiving application of Xfce and LXDE.It handles encrypted *.7z, *.arj, *.lrz, *.rar and *.zip archives -->
+pacman -S xarchiver
+
 ```
 
 ##### last

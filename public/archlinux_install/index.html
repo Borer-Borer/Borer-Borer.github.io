@@ -27,7 +27,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/januborer.github.io\/archlinux_install\/"
-        },"image": ["https:\/\/januborer.github.io\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "Linux, Archlinux","wordcount":  753 ,
+        },"image": ["https:\/\/januborer.github.io\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "Linux, Archlinux","wordcount":  853 ,
         "url": "https:\/\/januborer.github.io\/archlinux_install\/","datePublished": "2021-05-18T03:47:09+08:00","dateModified": "2021-05-18T03:47:09+08:00","license": "borer","publisher": {
             "@type": "Organization",
             "name": "borer","logo": "https:\/\/januborer.github.io\/borer.png"},"author": {
@@ -118,8 +118,8 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animated flipInX">Archlinux install</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://github.com/januborer" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>borer</a></span>&nbsp;<span class="post-category">included in <a href="/categories/linux/"><i class="far fa-folder fa-fw"></i>Linux</a>&nbsp;<a href="/categories/hunt/"><i class="far fa-folder fa-fw"></i>Hunt</a>&nbsp;<a href="/categories/archlinux/"><i class="far fa-folder fa-fw"></i>Archlinux</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-05-18">2021-05-18</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;753 words&nbsp;
-                <i class="far fa-clock fa-fw"></i>&nbsp;4 minutes&nbsp;</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-05-18">2021-05-18</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;853 words&nbsp;
+                <i class="far fa-clock fa-fw"></i>&nbsp;5 minutes&nbsp;</div>
         </div><div class="featured-image"><img
         class="lazyload"
         src="/svg/loading.min.svg"
@@ -151,16 +151,18 @@
                 <li><a href="#config-system">config system</a></li>
                 <li><a href="#enter-your-installed-archlinux">enter your installed archlinux</a></li>
                 <li><a href="#set-zone">set zone</a></li>
-                <li><a href="#locale-setting">locale setting</a></li>
+                <li><a href="#fonts--input-method">fonts &amp;&amp; input method</a></li>
                 <li><a href="#network-setting">network setting</a></li>
                 <li><a href="#set-root-password">set root password</a></li>
                 <li><a href="#grub">grub</a></li>
-                <li><a href="#install-network-control-tool--iwd">install network control tool : iwd</a></li>
                 <li><a href="#config-your-network">config your network</a></li>
                 <li><a href="#add-user">add user</a></li>
                 <li><a href="#give-user-sudo-permission">give user sudo permission</a></li>
-                <li><a href="#install-fonts">install fonts</a></li>
                 <li><a href="#some-other-softwares">some other softwares</a></li>
+              </ul>
+            </li>
+            <li><a href="#important-tools">Important tools</a>
+              <ul>
                 <li><a href="#last">last</a></li>
               </ul>
             </li>
@@ -351,15 +353,21 @@
 </span></span><span class="line"><span class="cl">hwclock --systohc --utc
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h5 id="locale-setting">locale setting</h5>
+</div><h5 id="fonts--input-method">fonts &amp;&amp; input method</h5>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">//uncomment:en_US UTF-8,zh_CN UTF-8
@@ -368,6 +376,12 @@
 </span></span><span class="line"><span class="cl">echo &#34;LANG=en_US.UTF-8&#34; &gt; /etc/locale.conf
 </span></span><span class="line"><span class="cl">export LANG=en_US.UTF-8
 </span></span><span class="line"><span class="cl">echo myarch &gt; /etc/hostname
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">//english font
+</span></span><span class="line"><span class="cl">pacman -S ttf-dejavu
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">//chinese fonts
+</span></span><span class="line"><span class="cl">pacman -S wqy-microhei
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h5 id="network-setting">network setting</h5>
@@ -413,15 +427,6 @@
 </span></span><span class="line"><span class="cl">grub-mkconfig -o /boot/grub/grub.cfg
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h5 id="install-network-control-tool--iwd">install network control tool : iwd</h5>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">pacman -S iwd
-</span></span></code></pre></td></tr></table>
-</div>
 </div><h5 id="config-your-network">config your network</h5>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -437,20 +442,28 @@
 </span><span class="lnt">10
 </span><span class="lnt">11
 </span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">//[General]
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;!-- Config --&gt;
+</span></span><span class="line"><span class="cl">//[General]
 </span></span><span class="line"><span class="cl">//EnableNetworkConfiguration=true
 </span></span><span class="line"><span class="cl">vim /etc/iwd/main.conf
+</span></span><span class="line"><span class="cl">systemctl start systemd-resolved.service
+</span></span><span class="line"><span class="cl">systemctl enable systemd-resolved.service
+</span></span><span class="line"><span class="cl">&lt;!-- Method one:dhcpcd --&gt;
 </span></span><span class="line"><span class="cl">//or install dhcpcd
 </span></span><span class="line"><span class="cl">pacman -S dhcpcd
 </span></span><span class="line"><span class="cl">systemctl start dhcpcd
 </span></span><span class="line"><span class="cl">systemctl enable dhcpcd
-</span></span><span class="line"><span class="cl">//start and enable some service about your networks
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">&lt;!-- Method two --&gt;
+</span></span><span class="line"><span class="cl">pacman -S iwd
 </span></span><span class="line"><span class="cl">systemctl start iwd.service
 </span></span><span class="line"><span class="cl">systemctl enable iwd.service
-</span></span><span class="line"><span class="cl">systemctl start systemd-resolved.service
-</span></span><span class="line"><span class="cl">systemctl enable systemd-resolved.service
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p><strong>note:</strong> then you can connect your network like above</p>
@@ -477,22 +490,24 @@
 </span></span><span class="line"><span class="cl">vim /etc/sudoers
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h5 id="install-fonts">install fonts</h5>
+</div><h5 id="some-other-softwares">some other softwares</h5>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
 </span><span class="lnt">4
+</span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">//english font
-</span></span><span class="line"><span class="cl">pacman -S ttf-dejavu
-</span></span><span class="line"><span class="cl">//chinese fonts
-</span></span><span class="line"><span class="cl">pacman -S wqy-microhei
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;!-- you can install .deb --&gt;
+</span></span><span class="line"><span class="cl">pacman -S debtap
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">&lt;!-- dpkg -i *****.dev --&gt;
+</span></span><span class="line"><span class="cl">pacman -S dpkg
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h5 id="some-other-softwares">some other softwares</h5>
+</div><h4 id="important-tools">Important tools</h4>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -511,24 +526,66 @@
 </span><span class="lnt">14
 </span><span class="lnt">15
 </span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">//Xarchiver is a front-end to various command line archiving tools for Linux and BSD operating systems, designed to be independent of the desktop environment.  It is the default archiving application of Xfce and LXDE.It handles encrypted *.7z, *.arj, *.lrz, *.rar and *.zip archives
-</span></span><span class="line"><span class="cl">   pacman -S xarchiver
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;!-- base-devel --&gt;
+</span></span><span class="line"><span class="cl">pacman -S base-devel
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">   //mount filetype ntfs
-</span></span><span class="line"><span class="cl">   pacman -S ntfs-3g
-</span></span><span class="line"><span class="cl">   //voice
-</span></span><span class="line"><span class="cl">   //sudo pacman -S alsa-utils alsa-plugins alsa-lib
-</span></span><span class="line"><span class="cl">   //alsamixer
-</span></span><span class="line"><span class="cl">   pacman -S pulseaudio
+</span></span><span class="line"><span class="cl">&lt;!-- Audio --&gt;
+</span></span><span class="line"><span class="cl">//driver
+</span></span><span class="line"><span class="cl">pacman -S alsa-utils alsa
+</span></span><span class="line"><span class="cl">//service
+</span></span><span class="line"><span class="cl">pacman -S pulseaudio
+</span></span><span class="line"><span class="cl">//CLI
+</span></span><span class="line"><span class="cl">pacman -S pulsemixer
+</span></span><span class="line"><span class="cl">//if have no sound ,then `pacman -S sof-firmware alsa-ucm-conf`
+</span></span><span class="line"><span class="cl">//control audio
+</span></span><span class="line"><span class="cl">pactl set-sink-volume @DEFAULT_SINK@ -5%
+</span></span><span class="line"><span class="cl">//or control audio
+</span></span><span class="line"><span class="cl">pulsemixer
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">   //you can install .deb
-</span></span><span class="line"><span class="cl">   //dpkg -i *****.dev
-</span></span><span class="line"><span class="cl">   pacman -S dpkg
+</span></span><span class="line"><span class="cl">&lt;!-- Battery --&gt;
+</span></span><span class="line"><span class="cl">pacman -S xf86-video-nouveau optimus-manager optimus-manager-qt
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">   //some base-devel
-</span></span><span class="line"><span class="cl">   pacman -S base-devel
+</span></span><span class="line"><span class="cl">&lt;!-- Bluetooth --&gt;
+</span></span><span class="line"><span class="cl">pacman -S bluz bluz-utils
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">&lt;!-- wireless network --&gt;
+</span></span><span class="line"><span class="cl">pacman -S iwd
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">&lt;!-- brightnessctl --&gt;
+</span></span><span class="line"><span class="cl">pacman -S brightnessctl
+</span></span><span class="line"><span class="cl">brightnessctl set 5%-
+</span></span><span class="line"><span class="cl">brightnessctl set +5%
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">&lt;!-- mount filetype ntfs --&gt;
+</span></span><span class="line"><span class="cl">pacman -S ntfs-3g
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">&lt;!-- Xarchiver is a front-end to various command line archiving tools for Linux and BSD operating systems, designed to be independent of the desktop environment.  It is the default archiving application of Xfce and LXDE.It handles encrypted *.7z, *.arj, *.lrz, *.rar and *.zip archives --&gt;
+</span></span><span class="line"><span class="cl">pacman -S xarchiver
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h5 id="last">last</h5>
