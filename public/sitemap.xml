@@ -2,6 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>https://januborer.github.io/rust_resources/</loc><lastmod>2022-07-20T14:16:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://januborer.github.io/human_first_principle/</loc><lastmod>2022-06-06T09:23:45&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://januborer.github.io/how_to_learn_a_new_programming_language_fast/</loc><lastmod>2022-05-27T13:37:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://januborer.github.io/keyilianxi/</loc><lastmod>2022-04-27T18:36:56&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -43,10 +44,13 @@
             <loc>https://januborer.github.io/xinxue/</loc><lastmod>2021-02-24T13:22:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://januborer.github.io/what-should-know-about-shell-script/</loc><lastmod>2021-01-20T10:01:02&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://januborer.github.io/hugo-generate-site/</loc><lastmod>2021-01-08T11:18:55&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://januborer.github.io/</loc><lastmod>2022-06-06T09:23:45&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://januborer.github.io/categories/</loc><lastmod>2022-06-06T09:23:45&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://januborer.github.io/posts/</loc><lastmod>2022-06-06T09:23:45&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://januborer.github.io/tags/</loc><lastmod>2022-06-06T09:23:45&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://januborer.github.io/</loc><lastmod>2022-07-20T14:16:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://januborer.github.io/categories/</loc><lastmod>2022-07-20T14:16:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://januborer.github.io/posts/</loc><lastmod>2022-07-20T14:16:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://januborer.github.io/tags/rust/</loc><lastmod>2022-07-20T14:16:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://januborer.github.io/categories/rust/</loc><lastmod>2022-07-20T14:16:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://januborer.github.io/tags/rust-resources/</loc><lastmod>2022-07-20T14:16:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://januborer.github.io/tags/</loc><lastmod>2022-07-20T14:16:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://januborer.github.io/tags/thoughts/</loc><lastmod>2022-06-06T09:23:45&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://januborer.github.io/categories/thoughts/</loc><lastmod>2022-06-06T09:23:45&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://januborer.github.io/tags/%E4%BA%BA%E6%80%A7/</loc><lastmod>2022-06-06T09:23:45&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
@@ -77,8 +81,6 @@
             <loc>https://januborer.github.io/categories/php/</loc><lastmod>2021-11-24T13:36:56&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://januborer.github.io/tags/%E7%AA%AE/</loc><lastmod>2021-09-27T15:58:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://januborer.github.io/categories/%E7%AA%AE/</loc><lastmod>2021-09-27T15:58:09&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://januborer.github.io/tags/rust/</loc><lastmod>2021-09-24T14:49:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://januborer.github.io/categories/rust/</loc><lastmod>2021-09-24T14:49:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://januborer.github.io/tags/rust-properties/</loc><lastmod>2021-09-24T14:49:43&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://januborer.github.io/tags/%E5%BF%83%E4%B9%8B%E5%8A%9B/</loc><lastmod>2021-09-14T10:39:07&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://januborer.github.io/tags/%E6%AF%9B%E6%B3%BD%E4%B8%9C/</loc><lastmod>2021-09-14T10:39:07&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>

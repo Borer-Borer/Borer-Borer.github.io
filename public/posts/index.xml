@@ -4,7 +4,14 @@
         <link>https://januborer.github.io/posts/</link>
         <description>All Posts | Borer&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>janu.yieg.borer@gmail.com (borer)</managingEditor>
-            <webMaster>janu.yieg.borer@gmail.com (borer)</webMaster><copyright>borer</copyright><lastBuildDate>Mon, 06 Jun 2022 09:23:45 &#43;0800</lastBuildDate><atom:link href="https://januborer.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>janu.yieg.borer@gmail.com (borer)</webMaster><copyright>borer</copyright><lastBuildDate>Wed, 20 Jul 2022 14:16:32 &#43;0800</lastBuildDate><atom:link href="https://januborer.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Rust 资源</title>
+    <link>https://januborer.github.io/rust_resources/</link>
+    <pubDate>Wed, 20 Jul 2022 14:16:32 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://januborer.github.io/rust_resources/</guid>
+    <description><![CDATA[Rust official web Rust Doc Rust nigthly book Rust Api Guidelines]]></description>
+</item><item>
     <title>第一人性</title>
     <link>https://januborer.github.io/human_first_principle/</link>
     <pubDate>Mon, 06 Jun 2022 09:23:45 &#43;0800</pubDate>
@@ -68,14 +75,5 @@ If you are a visual learner, you love visualizing ideas and concepts. You can cr
     <author>Author</author>
     <guid>https://januborer.github.io/tianju/</guid>
     <description><![CDATA[]]></description>
-</item><item>
-    <title>IT技术更新频繁的想法</title>
-    <link>https://januborer.github.io/it-new-technology-think/</link>
-    <pubDate>Sat, 04 Dec 2021 22:23:00 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://januborer.github.io/it-new-technology-think/</guid>
-    <description><![CDATA[<div class="featured-image">
-                <img src="https://cdn5.maocdn.cn/img/2021/07/29/wp7334739-mix-colours-wallpapers.jpg" referrerpolicy="no-referrer">
-            </div>针对技术多且变化快的想法: 如果一项技术发展没有问题，或者不想求方便，或者不想求完善完美，不想追求忧于已经存在的技术，主要还是该技术在被使用发]]></description>
 </item></channel>
 </rss>

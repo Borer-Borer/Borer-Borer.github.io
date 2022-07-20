@@ -25,7 +25,7 @@ summary: "生命毫无意义，你所喜爱和所有科学知识其目的该是�
 
 
 ## CS
-- [Rust](https://www.rust-lang.org)
+- [Rust](https://januborer.github.io/rust_resources)
 
 
 ## Search
