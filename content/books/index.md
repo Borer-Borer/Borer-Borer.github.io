@@ -26,6 +26,7 @@ summary: "生命毫无意义，你所喜爱和所有科学知识其目的该是�
 
 ## CS
 - [Rust](https://januborer.github.io/rust_resources)
+- [Algorithm](https://github.com/januborer/books/blob/main/CS/algorithm_third.pdf)
 
 
 ## Search
