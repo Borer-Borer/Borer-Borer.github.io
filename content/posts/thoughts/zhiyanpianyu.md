@@ -3,7 +3,7 @@ title: "支言片语"
 subtitle: "体会感悟到来时的记录"
 date: 2021-08-18T17:05:05+08:00
 lastmod: 2021-08-18T17:05:05+08:00
-draft: false
+draft: true
 author: "Borer"
 authorLink: "https://github.com/JanU-YieG"
 description:
