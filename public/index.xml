@@ -4,9 +4,16 @@
         <link>https://januborer.github.io/</link>
         <description>个人分享记录</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>janu.yieg.borer@gmail.com (borer)</managingEditor>
-            <webMaster>janu.yieg.borer@gmail.com (borer)</webMaster><copyright>borer</copyright><lastBuildDate>Wed, 20 Jul 2022 14:16:32 &#43;0800</lastBuildDate>
+            <webMaster>janu.yieg.borer@gmail.com (borer)</webMaster><copyright>borer</copyright><lastBuildDate>Sun, 24 Jul 2022 09:09:00 &#43;0800</lastBuildDate>
             <atom:link href="https://januborer.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>带着问题读,思</title>
+    <link>https://januborer.github.io/problem_and_time_read_think/</link>
+    <pubDate>Sun, 24 Jul 2022 09:09:00 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://januborer.github.io/problem_and_time_read_think/</guid>
+    <description><![CDATA[推荐书籍《如何阅读一本书》 问题/疑惑 当有了问题/疑惑，然后去读书去学习去思考，就是为了找出答案。而没有疑惑/问题的读书思考就是浪费时间，或者]]></description>
+</item><item>
     <title>Rust 资源</title>
     <link>https://januborer.github.io/rust_resources/</link>
     <pubDate>Wed, 20 Jul 2022 14:16:32 &#43;0800</pubDate>
@@ -70,12 +77,5 @@ If you are a visual learner, you love visualizing ideas and concepts. You can cr
     <author>Author</author>
     <guid>https://januborer.github.io/ruhebiancheng/</guid>
     <description><![CDATA[序言 编程语言很多，其设计理念也不一樣，那么如何才能使用该语言编写优秀程序且代码优美呢？其本质语言还是思想的表达，优美源于对美学的认识，对哲学]]></description>
-</item><item>
-    <title>天局</title>
-    <link>https://januborer.github.io/tianju/</link>
-    <pubDate>Sat, 18 Dec 2021 14:31:46 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://januborer.github.io/tianju/</guid>
-    <description><![CDATA[]]></description>
 </item></channel>
 </rss>
