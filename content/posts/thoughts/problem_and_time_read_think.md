@@ -15,9 +15,9 @@ weight: 1
 resources:
 - name: ""
   src: "xx.jpg"
-keywords: ["", ""]
-tags: ["", ""]
-categories: [""]
+keywords: ["think", "read"]
+tags: ["Thoughts"]
+categories: ["Thoughts"]
 lightgallery: true
 toc:
   enable: true
