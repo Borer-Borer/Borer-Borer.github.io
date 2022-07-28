@@ -38,3 +38,10 @@ summary: "生命毫无意义，你所喜爱和所有科学知识其目的该是�
 ## Search
 - [Z-lib](https://z-lib.org)
 - [google-books](https://books.google.com)
+
+## authors
+- 木心
+- 陈丹青
+
+## important
+- 五四运动
