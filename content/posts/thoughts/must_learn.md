@@ -15,9 +15,9 @@ weight: 1
 resources:
 - name: ""
   src: "xx.jpg"
-keywords: ["Thought", "CS","人性","法律","经济","制度","文化"]
-tags: ["Thought", "CS","人性","法律","经济","制度","文化"]
-categories: ["Thought", "CS","人性","法律","经济","制度","文化"]
+keywords: ["Thought", "CS","人性","法律","经济","制度","文化","哲学"]
+tags: ["Thought", "CS","人性","法律","经济","制度","文化","哲学"]
+categories: ["Thought", "CS","人性","法律","经济","制度","文化","哲学"]
 lightgallery: true
 toc:
   enable: true
@@ -37,3 +37,5 @@ summary: ""
 四、经济，制度
 
 五、文化
+
+六、哲学
