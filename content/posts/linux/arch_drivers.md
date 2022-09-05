@@ -138,3 +138,14 @@ summary: "Archlinux 必要驱动安装和使用教程"
     ```
     sudo pacman -S pavucontrol
     ```
+9. `Failed to set power on :org.bluz.Error.Failed`
+  ```
+  sudo systemctl start bluetooth
+  sudo systemctl enable bluetooth
+  rfkill unblock bluetooth
+  ```
+## 音频
+1. install the `pulsemixer` is the CLI
+  ```
+  sudo pacman -S alsa-utils alsa pulseaudio pulsemixer
+  ```
