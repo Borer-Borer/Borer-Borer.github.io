@@ -145,6 +145,7 @@ pacman -S ttf-dejavu
 
 //chinese fonts
 pacman -S wqy-microhei
+// kali:pacman -S xfonts-intl-chinese ttf-wqy-microhei
 
 ```
 
