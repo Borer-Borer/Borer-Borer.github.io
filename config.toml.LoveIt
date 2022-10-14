@@ -102,12 +102,12 @@ homePicture = "/blackarch.png"
         title = "GitHub"
         weight = 8
       [[languages.en.menu.main]]
-        identifier = "rust"
-        pre = "<i class='fab fa-rust'></i>"
+        identifier = "links"
+        pre = "<i class='fas fa-paperclip'></i>"
         post = ""
         name = ""
-        url = "https://www.rust-lang.org/"
-        title = "Rust"
+        url = "/Links/"
+        title = "Links"
         weight = 9
     [languages.en.params]
       # site description
