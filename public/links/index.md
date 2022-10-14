@@ -16,7 +16,12 @@
 - [LWN](https://lwn.net/)
 - [Leetcode](https://leetcode.com/)
 
-## Others
+## News
+- [sanli](https://www.setn.com/)
+- [voa](https://www.voachinese.com/)
+- [bbc](https://www.bbc.com/)
+
+## Thinking
 - [Hanck news](https://news.ycombinator.com/)
 - [PT](https://program-think.blogspot.com/)
 - [Marx](https://www.marxists.org/chinese/index.html)
@@ -26,4 +31,10 @@
 - [V2EX](https://www.v2ex.com/)
 - [100 vim commands](https://www.ubuntupit.com/100-useful-vim-commands-that-youll-need-every-day/)
 - [saltTiger](https://salttiger.com/)
+
+## Community
+- [Discord](https://discord.com/channels/@me)
+- [Element](https://app.element.io/#/home)
+- [Telegram](https://web.telegram.org/z)
+- [Twitter](https://twitter.com/home)
 
