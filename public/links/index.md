@@ -15,11 +15,13 @@
 - [kali](https://www.kali.org/)
 - [LWN](https://lwn.net/)
 - [Leetcode](https://leetcode.com/)
+- [Github](https://www.youtube.com/)
 
 ## News
 - [sanli](https://www.setn.com/)
 - [voa](https://www.voachinese.com/)
 - [bbc](https://www.bbc.com/)
+- [chinainperspective](https://www.chinainperspective.com/)
 
 ## Thinking
 - [Hanck news](https://news.ycombinator.com/)
@@ -32,9 +34,19 @@
 - [100 vim commands](https://www.ubuntupit.com/100-useful-vim-commands-that-youll-need-every-day/)
 - [saltTiger](https://salttiger.com/)
 
+## Tools
+- [Wiki](https://www.wikipedia.org/)
+- [Z-lib](https://z-lib.org/)
+
 ## Community
 - [Discord](https://discord.com/channels/@me)
 - [Element](https://app.element.io/#/home)
 - [Telegram](https://web.telegram.org/z)
 - [Twitter](https://twitter.com/home)
+- [januborer](https://januborer.github.io/)
+- [januborerEssay](https://januborer.github.io/essay/)
+- [thinkingCs](https://januborer.github.io/thinking_cs/)
+
+## Enjoy
+- [Youtube](https://www.youtube.com/)
 
