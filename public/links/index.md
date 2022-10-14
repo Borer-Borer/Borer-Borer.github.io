@@ -9,6 +9,7 @@
   - [Cookbook](https://rust-lang-nursery.github.io/rust-cookbook/intro.html)
   - [Awesome-rust](https://github.com/rust-unofficial/awesome-rust)
   - [Topic-awesome-rust](https://github.com/topics/awesome-rust)
+  - [Tauri](https://github.com/tauri-apps/tauri)
 
 - [CS]()
   - [Teach Yourself Computer Science](https://teachyourselfcs.com/)
@@ -60,6 +61,7 @@
 - [Youtube](https://www.youtube.com/)
 - [Putlockers](https://ww3.putlockers.li/)
 - [fmcmeiju](https://ww3.putlockers.li/)
+- [Tubi](https://tubitv.com/)
 
 ## Others
 - [januborer](https://januborer.github.io/)
