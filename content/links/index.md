@@ -15,6 +15,17 @@ showActions: true
 showTags: true
 summary: ""
 ---
+## Common News
+- [Hanck news](https://news.ycombinator.com/)
+- [Sanli](https://www.setn.com/)
+- [voa](https://www.voachinese.com/)
+- [BBC](https://www.bbc.com/)
+- [Chinainperspective](https://www.chinainperspective.com/)
+- [PT](https://program-think.blogspot.com/)
+- [Marx](https://www.marxists.org/chinese/index.html)
+- [中国哲学](https://ctext.org/zhs)
+- [缠中说缠](https://gsysbrj.github.io/index.html)
+
 ## Profession
 - [Rust](https://www.rust-lang.org/)
   - [Write OS](https://os.phil-opp.com/)
@@ -39,16 +50,12 @@ summary: ""
   - [LWN](https://lwn.net/)
   - [kali](https://www.kali.org/)
   - [lkml](https://lkml.org/)
+  - [100 vim commands](https://www.ubuntupit.com/100-useful-vim-commands-that-youll-need-every-day/)
 
 - [MIT](https://pdos.csail.mit.edu/)
 - [Web]()
   - [Mmdn](https://developer.mozilla.org/en-US/)
 
-## Common News
-- [sanli](https://www.setn.com/)
-- [voa](https://www.voachinese.com/)
-- [bbc](https://www.bbc.com/)
-- [chinainperspective](https://www.chinainperspective.com/)
 
 ## Thinking
 - [Hanck news](https://news.ycombinator.com/)
@@ -58,7 +65,6 @@ summary: ""
 - [缠中说缠](https://gsysbrj.github.io/index.html)
 - [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/index.html)
 - [V2EX](https://www.v2ex.com/)
-- [100 vim commands](https://www.ubuntupit.com/100-useful-vim-commands-that-youll-need-every-day/)
 - [saltTiger](https://salttiger.com/)
 
 ## Tools
