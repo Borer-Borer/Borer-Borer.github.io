@@ -4,7 +4,20 @@
 
 <!--toc-->
 
+## Profession
+- [Rust](https://www.rust-lang.org/)
+- [Rust Documentation](https://doc.rust-lang.org/nightly/)
+- [Macros](https://veykril.github.io/tlborm/introduction.html)
+- [Cli](https://rust-cli.github.io/book/index.html)
+- [Cookbook](https://rust-lang-nursery.github.io/rust-cookbook/intro.html)
 
+
+## Others
+- [Hanck news](https://news.ycombinator.com/)
+- [PT](https://program-think.blogspot.com/)
+- [Marx](https://www.marxists.org/chinese/index.html)
+- [中国哲学](https://ctext.org/zhs)
+- [缠中说缠](https://gsysbrj.github.io/index.html)
 
 ## important
 
