@@ -62,7 +62,7 @@ summary: ""
 - [PT](https://program-think.blogspot.com/)
 - [Marx](https://www.marxists.org/chinese/index.html)
 - [中国哲学](https://ctext.org/zhs)
-- [缠中说缠](https://gsysbrj.github.io/index.html)
+- [缠中说缠](https://januborer.github.io/chzhshch)
 - [Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/index.html)
 - [V2EX](https://www.v2ex.com/)
 - [saltTiger](https://salttiger.com/)
