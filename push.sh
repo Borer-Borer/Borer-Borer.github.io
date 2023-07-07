@@ -33,6 +33,10 @@ printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 # Go To Public folder
 cd public
 
+git init
+git branch -m site-code
+git remote add origin git@github.com:januborer/januborer.github.io.git
+
 current_branch=$(git branch --show-current)
 # Add changes to git.
 git add -f .
