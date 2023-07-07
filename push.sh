@@ -1,4 +1,5 @@
 #!/bin/sh
+echo " " | sudo rm -r ./public
 set -e
 # sudo rm -rf public
 # git clone -b site-code git@github.com:JanU-YieG/JanU-YieG.github.io.git public
