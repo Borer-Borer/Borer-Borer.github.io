@@ -82,7 +82,7 @@ homePicture = "/blackarch.png"
         pre = "<i class='fas fa-paperclip'></i>"
         post = ""
         name = "Books"
-        url = "/Books/"
+        url = "/books/"
         title = "Books"
         weight = 6
       [[languages.en.menu.main]]
@@ -90,7 +90,7 @@ homePicture = "/blackarch.png"
         pre = "<i class='far fa-address-card'></i>"
         post = ""
         name = "About"
-        url = "/About/"
+        url = "/about/"
         title = "About me"
         weight = 7
       [[languages.en.menu.main]]
@@ -106,7 +106,7 @@ homePicture = "/blackarch.png"
         pre = "<i class='fas fa-paperclip'></i>"
         post = ""
         name = ""
-        url = "/Links/"
+        url = "/links/"
         title = "Links"
         weight = 9
     [languages.en.params]
