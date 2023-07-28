@@ -49,4 +49,3 @@ summary: "生命毫无意义，你所喜爱和所有科学知识其目的该是�
 ## Other
 - [藏经阁](https://januborer.github.io/cangjingge/)
 - [禅中说禅](https://januborer.github.io/chzhshch/)
-- [随笔](https://januborer.github.io/essay/)
