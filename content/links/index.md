@@ -202,3 +202,7 @@ summary: ""
   - [CodeCademy](http://www.codecademy.com/)
   - [IBMDeveloperWorks](http://www.ibm.com/developerworks)
   - [MSDN](http://msdn.microsoft.com/en-us/library/)
+
+## Other
+- [藏经阁](https://januborer.github.io/cangjingge/)
+- [禅中说禅](https://januborer.github.io/chzhshch/)

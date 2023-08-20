@@ -33,7 +33,4 @@
 ## Important
 - 五四运动
 
-## Other
-- [藏经阁](https://januborer.github.io/cangjingge/)
-- [禅中说禅](https://januborer.github.io/chzhshch/)
 
